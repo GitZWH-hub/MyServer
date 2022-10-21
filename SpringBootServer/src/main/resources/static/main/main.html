@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+        <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+        <!-- JS实现AJAX部分-->
+        <script type="text/javascript" src="main.js"></script>
+        <!-- 这边定义的style放到css文件中，并link连接-->
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <html style="height:100%"></html>
+    <body style="height:100%">
+        <div id="content" style="height: 100%;width: 90%;margin: auto">
+            <div id="tab_bar">
+                <ul style="margin: 0px auto">
+                    <li id="tab1" onclick="myClick(1)">量化选股</li>
+                    <li id="tab2" onclick="myClick(2)">结果查询</li>
+                    <li id="tab3" onclick="myClick(3)">聚类</li>
+                    <li id="tab4" onclick="myClick(4)">行情查看</li>
+                    <li id="tab5" onclick="myClick(5)">量化回测</li>
+                </ul>
+            </div>
+            <div class="tab_css" id="tab1_content" style="display:block;height:100%;width:100%">
+                <iframe align="center" width="100%" height="100%" src="tab1/tab1.html" frameborder="no" marginwidth="0" scrolling="no"></iframe>
+            </div>
+            <div class="tab_css" id="tab2_content" style="height:100%;width:100%">
+                <iframe id='tab2_child' align="center" width="100%" height="100%" src="tab2/tab2.html" frameborder="no" marginwidth="0" scrolling="no"></iframe>
+            </div>
+            <div class="tab_css" id="tab3_content" style="height: 100%;width:100%">
+                <iframe align="center" width="100%" height="100%" src="tab3/tab3.html" frameborder="no" marginwidth="0" scrolling="yes"></iframe>
+            </div>
+            <div class="tab_css" id="tab4_content" style="height: 100%">
+                <iframe align="center" width="100%" height="100%" src="tab4/tab4.html" frameborder="no" marginwidth="0" scrolling="no"></iframe>
+            </div>
+            <div class="tab_css" id="tab5_content" style="height: 100%">
+                <iframe align="center" width="100%" height="100%" src="tab5/tab5.html" frameborder="no" marginwidth="0" scrolling="no"></iframe>
+            </div>
+
+        </div>
+
+    </body>
+</html>
+

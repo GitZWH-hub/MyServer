@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据获取模块</title>
+    <!-- 使用jquery框架 这里没有下载jquery，如果要下载，使用# npm install jquery命令-->
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.min.js"></script>
+    <!-- JS实现AJAX部分-->
+    <script type="text/javascript" src="getData.js"></script>
+    <!-- 这边定义的style放到css文件中，并link连接-->
+    <link rel="stylesheet" type="text/css" href="getData.css">
+</head>
+<body>
+    <h2 align="center">数据获取模块</h2>
+    <div style="margin-left: 200px;width: 600px;float: left">
+        <div>
+            <label style="width: 100px">选择数据类型：</label>
+            <td>
+                <input name="type" value="1" required type="radio">
+                <label style="font-size: 15px;">期货合约信息</label>
+                <input name="type" value="2" required type="radio" style="margin-left: 20px">
+                <label style="font-size: 15px;">交易日历</label>
+                <input name="type" value="3" required type="radio" style="margin-left: 20px" checked="true">
+                <label style="font-size: 15px;">历史行情</label>
+                <input name="type" value="4" required type="radio" style="margin-left: 20px">
+                <label style="font-size: 15px;">结算参数</label>
+            </td>
+        </div>
+        <br>
+        <div>
+            <label>选择交易所：</label>
+            <select id="exchange" required="True" style="margin-left: 20px;height:23px;font-size: 15px;width: 152px">
+                <option value="SHFE">上海期货交易所</option>
+                <option value="DCE">大连商品交易所</option>
+                <option value="CZCE">郑州商品交易所</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>选择时间段：</label>
+            <input id="start" type="date" class="date-picker" required min="2010-01-01" required max="2022-01-01" value="2010-01-01" style="margin-left: 20px"/>
+            <label>至</label>
+            <input id="end" type="date" class="date-picker" required min="2010-01-01" required max="2022-01-01" value="2022-01-01"/>
+        </div>
+        <br>
+    </div>
+    <div style="height: 120px">
+        <button id="pullData" style="width: 120px;height: 40px;background-color: #b7b9c6;float: bottom;margin-top: 70px;font-size: 16px">开 始</button>
+    </div>
+</body>
+</html>

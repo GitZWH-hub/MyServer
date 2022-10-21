@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tab1.css">
+    <script type="text/javascript" src="tab1.js"></script>
+</head>
+<html style="height:100%"></html>
+<body style="height:100%">
+    <div style="height:18px;width: 100%">
+        <div style="width: 25%;float: left">
+            <label>股票种类:</label>
+            <select id="which" required="False" style="width: 140px;font-size: 16px;margin-left: 10px">
+                <option value="" disabled selected hidden>请选择</option>
+                <option value="hs300">沪深300</option>
+                <option value="future">期货</option>
+                <option value="nasd100">纳斯达克100</option>
+            </select>
+            <!--    <script>select控件选择后直接触发事件-->
+            <!--        $('#ts_code').change(function(data){-->
+            <!--            let value = $("#ts_code option:selected").attr("value");-->
+            <!--            console.log(value)-->
+            <!--        });-->
+            <!--    </script>-->
+        </div>
+        <div style="width: 25%;float: left">
+            <label>股票代码:</label>
+            <select id="ts_code" required="False" style="width: 140px;font-size: 16px;margin-left: 10px">
+                <option value="">请选择</option>
+            </select>
+        </div>
+        <div style="width: 25%;float: left">
+            <button style="width: 30%" onclick="loadStock()">查询</button>
+        </div>
+    </div>
+    <div align="center" style="height: 87%">
+        <div style="width:100%;margin-top: 20px;height:100%">
+            <div style="float:left;width: 20%;height:100%">
+                <div style="border-style: double;height: 35%">
+                    <label style="font-size:12px;margin-left: 3px;float: left">股票数量:</label><br><br><br>
+                    <label style="font-size:70px;font-weight:bold" align="center">300</label>
+                </div>
+                <div style="margin-top:20px;border-style: double; height: 61%">
+
+                </div>
+            </div>
+            <div style="float: left;margin-left: 20px;border: #b7b9c6 1px dashed;width: 78%;height: 100%">
+                <label style="font-size: 12px;margin-left: 3px;float: left">股票列表:</label>
+                <table id="table_stock" class="box1" align="center">
+                    <thead>
+                        <tr>
+                            <th>Index</th>
+                            <th>日期</th>
+                            <th>指数名称</th>
+                            <th>成分券代码</th>
+                            <th>成分券名称</th>
+                            <th>交易所</th>
+                            <th>权重</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody_stock"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

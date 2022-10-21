@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+    <script type="text/javascript" src="tab5.js"></script>
+    <link rel="stylesheet" type="text/css" href="tab5.css">
+</head>
+<body>
+    <div style="margin: 0px auto;width: 91%" >
+        <div style="width: 25%;float: left;margin-top: 10px;background-color: #ffffff;border: 1px gray double" >
+            <div style="margin-left: 10px;margin-top: 10px">
+                <div>
+                    <label style="font-family: Arial">交易策略</label>
+                    <select id="StrategyType" style="font-size: 15px;width: 152px">
+                        <option value="1">双均线策略</option>
+                        <option value="2">其他策略</option>
+                    </select>
+                    <button id="SetPara" style="font-size: 12px;width: 70px">参数设置</button>
+                </div>
+                <div style="margin-top: 10px">
+                    <label>合约代码</label>
+                    <input id="fut" value="cu2110.SHF" style="font-size: 15px;width: 144px">
+                </div>
+                <div style="margin-top: 10px">
+                    <label>开始日期</label>
+                    <input id="start" type="date" class="date-picker" required min="2010-01-01" value="2021-07-11"  style="font-size: 15px;width: 146px"/>
+                </div>
+                <div style="margin-top: 10px">
+                    <label>结束日期</label>
+                    <input id="end" type="date" class="date-picker" required min="2010-01-01" value="2021-09-25"  style="font-size: 15px;width: 146px"/>
+                </div>
+                <div style="margin-top: 10px">
+                    <label>回测资金</label>
+                    <input id="cash" value=10000000 style="font-size: 15px;width: 144px">
+                </div>
+                <div style="margin-top: 10px">
+                    <label>K 线周期</label>
+                    <select style="font-size: 15px;width: 152px">
+                        <option>一天</option>
+                        <option>1分钟</option>
+                        <option>15分钟</option>
+                    </select>
+                </div>
+                <div style="margin-top: 10px">
+                    <label>手续费率</label>
+                    <input style="font-size: 15px;width: 144px">
+                </div>
+                <div style="margin-top: 10px">
+                    <label>交易滑点</label>
+                    <input style="font-size: 15px;width: 144px">
+                </div>
+                <div style="margin-top: 10px">
+                    <label>合约乘数</label>
+                    <input style="font-size: 15px;width: 144px">
+                </div>
+                <div style="margin-top: 10px">
+                    <button id='DownloadData' style="width: 145px;font-size: 15px;border-radius:10px;">下载数据</button>
+                    <button id="BackTest" style="width: 145px;margin-top: 10px;font-size: 15px;border-radius:10px">开始回测</button>
+                </div>
+                <div class='labeldiv' style="margin-top: 10px;width: 293px;border: 1px dashed rgba(255,255,255,0);background: rgba(255,255,255,0.9);border-radius:10px">
+                    <label id="ShowInfo" class="labelinfo"></label>
+                </div>
+            </div>
+        </div>
+        <div style="float:left;margin-left: 10px;width: 73%;">
+            <!-- 右边图-->
+            <div id="chart" height="500" width="1000" style="background: rgba(255,255,155,0)"></div>
+            <div style="float: left;width: 100px;height:50px">
+                <div id="result" style="margin-left: 30%;margin-top: 50%"></div>
+            </div>
+
+            <!--创建显示具体信息的表格-->
+            <table id="tableKInfo" style="margin: 0 auto"></table>
+        </div>
+    </div>
+    <!--双均线设置参数对话框-->
+    <dialog close id="DoubleMADialog" style="margin-left: 350px">
+        <div>
+            <label style="width: 80px">短线周期</label>
+            <input id="short" value=5 style="width: 80px; margin-left: 10px">
+        </div>
+        <div style="margin-top: 10px">
+            <label style="width: 80px">长线周期</label>
+            <input id="long" value=10 style="width: 80px; margin-left: 10px">
+        </div>
+        <div  style="margin-top: 10px" align="center">
+            <button id="sure">确定</button>
+        </div>
+    </dialog>
+    <script type="text/javascript">
+        const DoubleMADialog = document.getElementsByTagName("dialog")[0];
+        closeD = document.getElementById("sure");
+        // 设置参数button
+        openD = document.getElementById("SetPara")
+        strategyType = document.getElementById("StrategyType")
+        closeD.onclick = function(){
+            DoubleMADialog.close()
+        }
+        openD.onclick = function (){
+            // 双均线策略
+            if(strategyType.value == '1')
+                DoubleMADialog.show()
+        }
+        document.getElementById('BackTest').disabled = true;
+    </script>
+</body>
+</html>

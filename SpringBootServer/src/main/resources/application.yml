@@ -1,0 +1,28 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    name: serverdb
+    url: jdbc:mysql://localhost:3306/SoftwareManager
+    username: root
+    password: admin123
+
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl.auto: update
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+logging:
+  level:
+    com.example.springbootserver: debug

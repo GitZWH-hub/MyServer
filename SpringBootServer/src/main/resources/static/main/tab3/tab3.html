@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tab3.css">
+    <script type="text/javascript" src="tab3.js"></script>
+</head>
+<html style="height: 100%"></html>
+<body style="height: 100%">
+    <!-- 最外层div   -->
+    <div style="margin: 0 auto;border: rgba(255,255,155, 0) 1px dashed;width: 100%;height: 92%">
+        <div style="margin-top: 10px; width: 43%; float: left;background: black">
+            <div class="div_exchange">
+                <input required class="checkbox_exchange" type="checkbox" name="check" value="SHFE" onclick="onLoadFuture()">
+                <label class='label_exchange'>上海期货交易所</label>
+            </div>
+            <div class="div_exchange">
+                <input required class="checkbox_exchange" type="checkbox" name="check" value="CZCE" onclick="onLoadFuture()">
+                <label class='label_exchange'>郑州商品交易所</label>
+            </div>
+            <div class="div_exchange" >
+                <input required class="checkbox_exchange" type="checkbox" name="check" value="DCE" onclick="onLoadFuture()">
+                <label class='label_exchange'>大连商品交易所</label>
+            </div>
+        </div>
+        <div style="margin:10px;border: rgba(255,255,155, 0) 1px dashed;">
+            <label style="margin-left: 30px">时间段: </label>
+            <input style="font-size: 15px;" id="start" type="month" class="month-picker" required min="2010-01" max="2022-02" value="2015-01"/>
+            <label style="font-size: 15px;">至</label>
+            <input style="font-size: 15px;" id="end" type="month" class="month-picker" required min="2010-01" max="2022-02" value="2021-01"/>
+            <button id='send' style="width: 200px; margin-left: 30px">开 始 聚 类</button>
+        </div>
+        <!-- 这里主要显示返回的合约代码并显示checkbox-->
+        <div style="margin-top: 10px;height: 500px">
+            <div style="background: #e54b4b;float:left;height:100%; width: 43%;">
+                <div>
+                    <div id="SHFE" class="div_fut">
+                    </div>
+                    <div id="CZCE" class="div_fut">
+                    </div>
+                    <div id="DCE" class="div_fut">
+                    </div>
+                </div>
+            </div>
+            <div id="div_result" style="width:54.5%;height:100%;float:right;background:#40006d"></div>
+        </div>
+        <div style="margin-top: 20px;height: 500px">
+            <div style="background: #f8f6f6;float:left;height: 100%;width:48.7%"></div>
+            <div style="background: #d0cece;float:right;height: 100%; width: 48.7%"></div>
+        </div>
+    </div>
+
+    <script>
+        const groupCheckbox = $("input[name='check']");
+        host = "http://localhost:8001"
+        // 【现状态，是否改变】
+        let excDict = {'SHFE': [0, 0], 'CZCE': [0, 0], 'DCE': [0, 0]}
+        // 用于查询交易所下的合约
+        function onLoadFuture() {
+            // 这里应该得到交易所是否改变
+            // let excList = []
+            for (let i = 0; i < groupCheckbox.length; i++) {
+                if (groupCheckbox[i].checked && excDict[groupCheckbox[i].value][0] == 0) {
+                    // excList.push(groupCheckbox[i].value)
+                    excDict[groupCheckbox[i].value][0] = 1
+                    excDict[groupCheckbox[i].value][1] = 1
+                }
+                else if (!groupCheckbox[i].checked && excDict[groupCheckbox[i].value][0] == 1){
+                    excDict[groupCheckbox[i].value][0] = 0
+                    excDict[groupCheckbox[i].value][1] = 1
+                }
+                else{
+                    excDict[groupCheckbox[i].value][1] = 0
+                }
+            }
+            // 发送接口Req8001，查询excList中交易所的所有合约代码,并返回显示
+            for(let exchange in excDict)
+            {
+                if(excDict[exchange][1] == 1 && excDict[exchange][0] == 0) {
+                    document.getElementById(exchange).innerHTML = "";
+                    continue;
+                }
+                else if(excDict[exchange][1] == 1 && excDict[exchange][0] == 1) {
+                    let post_data = {'code': '8001', 'exchange': exchange}
+                    $.ajax({
+                        type: "POST",
+                        url: host + "/Req8001",
+                        contentType: 'application/json',
+                        timeout: 5000,
+                        cache: true,
+                        data: JSON.stringify(post_data),
+                        dataType: "text",
+                        success: function (data, status) {
+                            if (status == 'success') {
+                                console.log(exchange)
+                                let json = JSON.parse(data)
+                                for (let i = 0; i < json.length; i++) {
+                                    console.log(exchange)
+                                    document.getElementById(exchange).innerHTML += "" +
+                                        "<input required type='checkbox' class='checkbox_fut' checked='true' name='" + exchange + "check' value='" + json[i][0] + "'>" +
+                                        "<label class='label_fut'>" + json[i][1] + "(" + json[i][0] + ")" + "</label>" +
+                                        "<br>";
+                                }
+                            } else {
+                                alert("fail")
+                            }
+                        }
+                    })
+                }
+            }
+        }
+    </script>
+</body>
+</html>

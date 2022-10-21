@@ -1,0 +1,25 @@
+table tbody {
+    display: block;
+    max-height: 580px;
+    overflow-y: scroll
+}
+
+table thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+table thead tr th{
+    background-color: #e3e3e3;
+    border: .5px solid #bfbfbf;
+}
+
+table{
+    border: 1px solid #ffffff;
+    width: 95%;
+    margin: 0 auto;
+}
+
+table tbody tr td{
+    border: .5px dashed gray;
+}

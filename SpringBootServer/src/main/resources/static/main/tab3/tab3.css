@@ -1,0 +1,56 @@
+/*body{*/
+/*    background-image:*/
+/*            url("https://yzhangwh-1253708708.cos.ap-shanghai.myqcloud.com/%E9%87%8F%E5%8C%96%E5%9B%BE%E7%89%87/backtest.png");*/
+/*    background-size: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*exchange*/
+div.div_exchange{
+    float:left;
+    width: 32%;
+    border: #030303 1px dashed;
+}
+input.checkbox_exchange{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+label.label_exchange{
+    font-size: 15px;
+    color: white;
+}
+/*fut*/
+div.div_fut{
+    width: 32%;
+    border: #e54b4b 1px dashed;
+    float: left;
+}
+input.checkbox_fut{
+    margin-top: 7px;
+    margin-left: 30px;
+}
+label.label_fut{
+    margin-left: 8px;
+    font-size: 15px;
+    color: white;
+}
+table.tb{
+    margin: 20px auto;
+    /*width: 700px;*/
+
+    width: 95%;
+    border: white 2px outset;
+}
+th.th1{
+    color: white;
+}
+th.th2{
+    width: 10%;
+}
+/**/
+div.png{
+    width: 32%;
+    border: #e54b4b 1px dashed;
+    float: left;
+}

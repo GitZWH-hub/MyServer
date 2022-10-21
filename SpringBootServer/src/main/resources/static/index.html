@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正在登陆</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div id="content"  style="position: absolute;top: 20%;left: 40%">
+        <div id="tab_bar">
+            <ul>
+                <li id="tab1" onclick="myClick(1)" style="color: #000000;font-weight:bold">登陆</li>
+                <li id="tab2" onclick="myClick(2)" style="color: #a19f9f">注册</li>
+            </ul>
+        </div>
+        <div class="tab_css" id="tab1_content" style="display: block">
+            <div>
+                <label style="width: 52px;">用户名:</label>
+                <input id="login_name" style="margin-left: 15px">
+                <p></p>
+                <label style="width: 52px;display: inline-block;text-align:justify;text-align-last:justify">密码:</label>
+                <input id="password" style="margin-left: 15px">
+                <p></p>
+                <a href="Section-GetData/getData.html" style="color: coral;font-size: 10px">忘记密码?</a>
+                <button onclick="login()" style="width: 148px;margin-left: 12px">登录</button>
+            </div>
+        </div>
+        <div class="tab_css" id="tab2_content">
+            <div>
+                <label style="width: 100px;">注册用户名:</label>
+                <input id="register_name" style="margin-left: 15px">
+                <p></p>
+                <label style="width: 100px;">注册密码:</label>
+                <input id="register_pw" style="margin-left: 31px">
+                <p></p>
+                <label style="width: 100px;">注册姓名:</label>
+                <input id="name" style="margin-left: 31px">
+                <p></p>
+                <button onclick="register()" style="width: 148px;margin-left: 104px;text-align:justify;text-align-last:justify">注册</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
