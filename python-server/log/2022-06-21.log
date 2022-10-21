@@ -1,0 +1,7 @@
+[2022-06-21 15:41:52] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-21 15:43:35] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-21 23:50:53] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-21 23:52:00] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-21 23:54:33] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-21 23:54:34] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-22 00:39:02] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'

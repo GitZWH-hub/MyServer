@@ -1,0 +1,117 @@
+[2022-05-24 23:13:33] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:13:35] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:13:35] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-24 23:13:35] [INFO] 本地无数据
+[2022-05-24 23:13:35] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:13:38] [ERROR] to_sql ERROR
+[2022-05-24 23:13:38] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:14:28] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:14:29] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:14:29] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:14:29] [INFO] 本地无数据
+[2022-05-24 23:14:29] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:14:32] [ERROR] to_sql ERROR
+[2022-05-24 23:14:32] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:16:10] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:16:11] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:16:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:16:11] [INFO] 本地无数据
+[2022-05-24 23:16:11] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:16:12] [ERROR] to_sql ERROR
+[2022-05-24 23:16:12] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:18:09] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:18:11] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:18:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:18:11] [INFO] 本地无数据
+[2022-05-24 23:18:11] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:18:12] [ERROR] to_sql ERROR
+[2022-05-24 23:18:12] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:19:45] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:19:46] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:19:46] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:19:46] [INFO] 本地无数据
+[2022-05-24 23:19:46] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:19:48] [ERROR] to_sql ERROR
+[2022-05-24 23:19:48] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:25:53] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:25:54] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:25:54] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:25:54] [INFO] 本地无数据
+[2022-05-24 23:25:54] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:25:55] [ERROR] to_sql ERROR
+[2022-05-24 23:25:55] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:29:06] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:29:07] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:29:07] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:29:07] [INFO] 本地无数据
+[2022-05-24 23:29:07] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:29:09] [ERROR] to_sql ERROR
+[2022-05-24 23:29:09] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:39:41] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:39:42] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:39:42] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-24 23:49:26] [INFO] -- 开始拉取合约信息(Future) --
+[2022-05-24 23:49:27] [INFO] -- 拉取合约信息结束(Future) --
+[2022-05-24 23:49:39] [INFO] -- 开始获取交易日历(TradeCal) --
+[2022-05-24 23:49:42] [INFO] -- 拉取交易日历结束(TradeCal) --
+[2022-05-24 23:49:47] [INFO] -- 开始获取结算参数(FutSettle)
+[2022-05-24 23:49:48] [ERROR] to_sql ERROR
+[2022-05-24 23:49:48] [INFO] -- 拉取结算参数结束(FutSettle) --
+[2022-05-24 23:49:56] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:49:56] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-24 23:49:59] [ERROR] to_sql ERROR
+[2022-05-24 23:49:59] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:53:49] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:53:49] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-24 23:53:51] [ERROR] to_sql ERROR
+[2022-05-24 23:53:51] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:54:44] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:54:44] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-24 23:54:46] [ERROR] to_sql ERROR
+[2022-05-24 23:54:46] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:55:45] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:55:45] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-24 23:55:47] [ERROR] to_sql ERROR
+[2022-05-24 23:55:47] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-24 23:56:21] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:56:21] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-24 23:57:57] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-24 23:57:57] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 00:42:45] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:42:54] [INFO] -- 开始拉取合约信息(Future) --
+[2022-05-25 00:42:57] [INFO] -- 拉取合约信息结束(Future) --
+[2022-05-25 00:43:09] [INFO] -- 开始获取交易日历(TradeCal) --
+[2022-05-25 00:43:11] [INFO] -- 拉取交易日历结束(TradeCal) --
+[2022-05-25 00:43:16] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:43:16] [INFO] 正在拉取1681个合约的历史行情
+[2022-05-25 00:47:56] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:47:57] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:47:57] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 00:47:57] [INFO] 本地无数据
+[2022-05-25 00:47:57] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:47:58] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:53:07] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:53:10] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:53:10] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 00:53:15] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:53:16] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:53:16] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210507' and '20210925'
+[2022-05-25 00:53:16] [INFO] 本地数据不完整
+[2022-05-25 00:53:16] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210507' and '20210925'
+[2022-05-25 00:53:16] [INFO] to sql ERROR
+[2022-05-25 00:53:16] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:53:18] [ERROR] to_sql ERROR
+[2022-05-25 00:53:18] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:58:50] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 00:58:52] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 00:58:52] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 01:23:27] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:24:19] [INFO] -- 开始获取结算参数(FutSettle)
+[2022-05-25 01:24:19] [ERROR] to_sql ERROR
+[2022-05-25 01:24:19] [INFO] -- 拉取结算参数结束(FutSettle) --
+[2022-05-25 01:24:29] [INFO] -- 开始拉取合约信息(Future) --
+[2022-05-25 01:24:30] [INFO] -- 拉取合约信息结束(Future) --
+[2022-05-25 01:24:36] [INFO] -- 开始获取交易日历(TradeCal) --
+[2022-05-25 01:24:37] [INFO] -- 拉取交易日历结束(TradeCal) --
+[2022-05-25 01:24:44] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:24:44] [INFO] 正在拉取1397个合约的历史行情

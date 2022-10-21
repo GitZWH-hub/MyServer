@@ -1,0 +1,247 @@
+[2022-05-25 01:34:13] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:34:13] [INFO] 正在拉取190个合约的历史行情
+[2022-05-25 01:38:23] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:40:10] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:40:10] [INFO] 正在拉取16个合约的历史行情
+[2022-05-25 01:40:16] [ERROR] to_sql ERROR
+[2022-05-25 01:40:16] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:42:29] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:42:29] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:42:35] [ERROR] to_sql ERROR
+[2022-05-25 01:42:35] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:43:30] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:43:30] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:43:39] [ERROR] to_sql ERROR
+[2022-05-25 01:43:39] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:46:19] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:46:19] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:46:25] [ERROR] to_sql ERROR
+[2022-05-25 01:46:25] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:49:16] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:49:16] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:49:25] [ERROR] to_sql ERROR
+[2022-05-25 01:49:25] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:50:29] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:50:29] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:50:30] [ERROR] to_sql ERROR
+[2022-05-25 01:50:30] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:53:10] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:53:10] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:53:12] [ERROR] to_sql ERROR
+[2022-05-25 01:53:12] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:55:01] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:55:01] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:55:02] [ERROR] to_sql ERROR
+[2022-05-25 01:55:02] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:55:19] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:55:19] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:55:20] [ERROR] to_sql ERROR
+[2022-05-25 01:55:20] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:55:24] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:55:24] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:55:24] [ERROR] to_sql ERROR
+[2022-05-25 01:55:24] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 01:57:50] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 01:57:50] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 01:57:55] [ERROR] to_sql ERROR
+[2022-05-25 01:57:55] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:00:06] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:00:06] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:02:13] [ERROR] to_sql ERROR
+[2022-05-25 02:02:13] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:03:21] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:03:21] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:03:29] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:03:29] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:03:30] [ERROR] to_sql ERROR
+[2022-05-25 02:03:30] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:05:12] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:05:12] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:05:14] [ERROR] to_sql ERROR
+[2022-05-25 02:05:14] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:06:09] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:06:09] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:06:10] [ERROR] to_sql ERROR
+[2022-05-25 02:06:10] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:07:08] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:07:08] [INFO] 正在拉取1201个合约的历史行情
+[2022-05-25 02:07:10] [ERROR] to_sql ERROR
+[2022-05-25 02:07:10] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:07:22] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:07:22] [INFO] 正在拉取1201个合约的历史行情
+[2022-05-25 02:07:23] [ERROR] to_sql ERROR
+[2022-05-25 02:07:23] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:11:59] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:11:59] [INFO] 正在拉取1201个合约的历史行情
+[2022-05-25 02:12:00] [ERROR] to_sql ERROR
+[2022-05-25 02:12:00] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:14:10] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:14:10] [INFO] 正在拉取1201个合约的历史行情
+[2022-05-25 02:15:44] [ERROR] to_sql ERROR
+[2022-05-25 02:15:44] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:20:48] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:20:48] [INFO] 正在拉取1201个合约的历史行情
+[2022-05-25 02:20:58] [ERROR] to_sql ERROR
+[2022-05-25 02:20:58] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:22:40] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 02:22:40] [ERROR] to sql ERROR
+[2022-05-25 02:22:40] [INFO] 本地无数据
+[2022-05-25 02:22:40] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:22:42] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:22:50] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-25 02:22:51] [INFO] 本地数据不完整
+[2022-05-25 02:22:51] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-25 02:22:51] [INFO] to sql ERROR
+[2022-05-25 02:22:51] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:22:51] [ERROR] to_sql ERROR
+[2022-05-25 02:22:51] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:22:54] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-25 02:22:54] [INFO] 本地数据不完整
+[2022-05-25 02:22:54] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210430' and '20210925'
+[2022-05-25 02:22:54] [INFO] to sql ERROR
+[2022-05-25 02:22:54] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:22:55] [ERROR] to_sql ERROR
+[2022-05-25 02:22:55] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:23:12] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210304' and '20210925'
+[2022-05-25 02:23:12] [INFO] 本地数据不完整
+[2022-05-25 02:23:12] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210304' and '20210925'
+[2022-05-25 02:23:12] [INFO] to sql ERROR
+[2022-05-25 02:23:12] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:23:13] [ERROR] to_sql ERROR
+[2022-05-25 02:23:13] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:23:23] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210708' and '20210925'
+[2022-05-25 02:23:23] [INFO] 本地数据不完整
+[2022-05-25 02:23:23] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210708' and '20210925'
+[2022-05-25 02:23:23] [INFO] to sql ERROR
+[2022-05-25 02:23:23] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:23:24] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:30:48] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:30:48] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:30:49] [ERROR] to_sql ERROR
+[2022-05-25 02:30:49] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:31:02] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:31:02] [INFO] 正在拉取1751个合约的历史行情
+[2022-05-25 02:31:06] [ERROR] to_sql ERROR
+[2022-05-25 02:31:06] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:31:16] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210708' and '20210925'
+[2022-05-25 02:31:51] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210708' and '20210925'
+[2022-05-25 02:32:01] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210701' and '20210925'
+[2022-05-25 02:32:01] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210701' and '20210925'
+[2022-05-25 02:32:01] [INFO] to sql ERROR
+[2022-05-25 02:32:01] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:32:02] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:32:25] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210601' and '20210925'
+[2022-05-25 02:32:25] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210601' and '20210925'
+[2022-05-25 02:32:25] [INFO] to sql ERROR
+[2022-05-25 02:32:25] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:32:26] [ERROR] to_sql ERROR
+[2022-05-25 02:32:26] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:35:49] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210701' and '20210925'
+[2022-05-25 02:36:02] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210601' and '20210925'
+[2022-05-25 02:36:02] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210601' and '20210925'
+[2022-05-25 02:36:02] [INFO] to sql ERROR
+[2022-05-25 02:36:02] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:36:03] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:36:32] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:36:32] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:36:32] [INFO] to sql ERROR
+[2022-05-25 02:36:32] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:36:34] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:39:31] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:39:33] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:39:33] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:39:34] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:39:41] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'
+[2022-05-25 02:39:45] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210201' and '20210925'
+[2022-05-25 02:39:45] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210201' and '20210925'
+[2022-05-25 02:39:45] [INFO] to sql ERROR
+[2022-05-25 02:39:45] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:39:46] [ERROR] to_sql ERROR
+[2022-05-25 02:39:46] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:39:49] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210201' and '20210925'
+[2022-05-25 02:39:49] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210201' and '20210925'
+[2022-05-25 02:39:49] [INFO] to sql ERROR
+[2022-05-25 02:39:49] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-05-25 02:39:50] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-05-25 02:42:25] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 02:42:28] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 02:42:35] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210201' and '20210925'
+[2022-05-25 20:38:05] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 20:38:56] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 20:39:21] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:04:53] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:06:16] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:06:32] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:07:24] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:09:18] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:09:47] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:10:50] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:13:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:16:36] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:01] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:27] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:40] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:49] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:17:58] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:18:09] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:18:29] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:25:14] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:25:37] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:28:40] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:28:51] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:29:53] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:30:27] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:30:43] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:31:59] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:33:01] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:33:15] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:33:29] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:33:38] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:43:15] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:45:56] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:46:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 21:52:55] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:14:00] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:14:37] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:15:00] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:15:08] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:15:53] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:16:13] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:17:50] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:18:37] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:18:50] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:19:18] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:20:15] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:20:33] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:21:04] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:21:15] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:21:53] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:22:14] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:23:26] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:24:06] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:24:21] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:24:58] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:25:32] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:26:15] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:26:30] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:26:44] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:26:54] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:27:14] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:27:44] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:35:42] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:35:55] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:41:19] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:41:32] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:45:45] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 22:49:04] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:31:38] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:31:43] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:32:01] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:40:29] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:46:40] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:48:04] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:53:44] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:56:23] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:56:51] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-05-25 23:56:56] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'

@@ -1,0 +1,42 @@
+[2022-06-05 15:25:36] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:04:34] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:04:44] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:04:51] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:04:58] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:05:14] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:05:26] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:05:38] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
+[2022-06-05 16:05:44] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20200605' and '20210925'
+[2022-06-05 16:05:44] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20200605' and '20210925'
+[2022-06-05 16:05:44] [INFO] to sql ERROR
+[2022-06-05 16:05:44] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-06-05 16:05:45] [ERROR] to_sql ERROR
+[2022-06-05 16:05:45] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-06-05 16:05:57] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20200605' and '20210925'
+[2022-06-05 16:05:57] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20200605' and '20210925'
+[2022-06-05 16:05:57] [INFO] to sql ERROR
+[2022-06-05 16:05:57] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-06-05 16:05:58] [ERROR] to_sql ERROR
+[2022-06-05 16:05:58] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-06-05 16:06:51] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210101' and '20210925'
+[2022-06-05 16:06:51] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20210101' and '20210925'
+[2022-06-05 16:06:51] [INFO] to sql ERROR
+[2022-06-05 16:06:51] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-06-05 16:06:52] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-06-05 16:07:04] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210101' and '20210925'
+[2022-06-05 16:08:08] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210204' and '20210925'
+[2022-06-05 16:08:16] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210204' and '20210925'
+[2022-06-05 16:11:04] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20201001' and '20210925'
+[2022-06-05 16:11:04] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20201001' and '20210925'
+[2022-06-05 16:11:04] [INFO] to sql ERROR
+[2022-06-05 16:11:04] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-06-05 16:11:05] [ERROR] to_sql ERROR
+[2022-06-05 16:11:05] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-06-05 16:11:11] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20201101' and '20210925'
+[2022-06-05 16:11:11] [DEBUG] delete from CU where ts_code = 'CU2110.SHF' and trade_date between '20201101' and '20210925'
+[2022-06-05 16:11:11] [INFO] to sql ERROR
+[2022-06-05 16:11:11] [INFO] -- 开始拉取历史行情(HisQuotes) --
+[2022-06-05 16:11:20] [INFO] -- 拉取历史行情结束(HisQuotes) --
+[2022-06-05 16:11:34] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20201101' and '20210925'
+[2022-06-05 16:11:57] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20201201' and '20210925'
+[2022-06-05 16:12:09] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210401' and '20210925'

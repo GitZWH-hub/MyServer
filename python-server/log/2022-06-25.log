@@ -1,0 +1,1 @@
+[2022-06-25 21:13:47] [DEBUG] select trade_date,ts_code,open,close,high,low,vol from CU where ts_code = 'CU2110.SHF' and trade_date between '20210711' and '20210925'
